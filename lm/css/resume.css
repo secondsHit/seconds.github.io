@@ -1,0 +1,92 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;font-family: "微软雅黑",Verdana,Geneva,sans-serif;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+body{
+	background:url("../images/background.jpg")repeat;
+}
+#resume{
+	width:750px;
+	background-color:#D9E2F3;
+	margin:35px auto;
+	
+}
+div.title{
+	border:1px solid #AAABB3;
+	border-bottom:none;
+}
+div.title h1{
+	color:#414141;
+    font-family: "微软雅黑",Verdana,Geneva,sans-serif;
+	font-size:50px;
+	text-align:center;
+	padding:20px 0 10px 0;
+}
+div.border table{
+	width:750px;
+}
+div.border table td{
+	width:125px;
+	border:1px solid #AAABB3;
+	padding:10px 0 5px 5px;
+	color:#414141;
+	font-size:15px;
+}
+div.border table td.produce{
+	text-align:center;
+	background-color:#E0E0E0;
+	font-weight:bold;
+	vertical-align: middle;
+}
+
+div.border table td p{
+	padding:5px 0 5px 25px;
+}
+div.border table td p > a{
+	font-weight:bold;
+}
+div.border table td h3{
+	font-weight:bold;
+	padding-left:60px;
+}
+div.border table td p.a1{
+	padding-left:84px;
+}
+div.border table td h4{
+	padding:10px 0 3px 10px;
+}
+div.border table td p.a2{
+	padding-left:65px;
+}
+.photo{
+	background:url("../images/photo.jpg") no-repeat 25px 5px;
+}
+#other{
+	position:fixed;
+	top:35px;
+	right:55px;
+}
+#other li{
+	margin-bottom:15px;
+}
+#other li a{
+	display:block;
+	padding-left: 40px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    color: #414141;
+	text-decoration:none;
+}
+#other .download a{
+	background:url("../images/download.png")no-repeat left center;
+	
+}
+#other .response a{
+	background:url("../images/page.png")no-repeat left center;
+}
+#other .knowlege a{
+	background:url("../images/knowlege.jpg")no-repeat left center;
+}
